@@ -9,9 +9,11 @@
 
 # Azamat Mamarajabov 
 
-## O'rnatish
+# Installation
 
-### php commant
+## Let's go
+
+### php
 
 * php
   ```sh
