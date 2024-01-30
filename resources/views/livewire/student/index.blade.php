@@ -41,10 +41,10 @@
                                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                                     {{ $student->email }}
                                 </td>
-                                {{-- <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                    <img src="{{ $student?->getMedia()?->last()?->getUrl() }}" alt=""
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                                    <img src="{{ $student?->getMedia()?->last()?->getUrl()  }}" alt=""
                                         width="200px" />
-                                </td> --}}
+                                </td>
                                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                                     {{ $student->class->name }}
                                 </td>
